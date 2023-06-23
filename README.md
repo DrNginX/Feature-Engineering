@@ -1,2 +1,4 @@
 # Feature-Engineering
+Feature engineering is the process of creating new features or transforming existing features in a dataset to improve the performance of machine learning models. It involves selecting, extracting, or deriving relevant information from the raw data that can enhance the model's ability to learn and make accurate predictions. Feature engineering often requires domain knowledge and creativity to identify meaningful patterns, relationships, or representations in the data. This can involve various techniques such as encoding categorical variables, handling missing values, scaling, normalizing, binning, creating interaction or polynomial features, applying mathematical transformations, and more
+
 In this repository I am just trying to enhance the accuracy of model by putting all type of transformation techniques such as power transformation and function transformation inside the dataset.
