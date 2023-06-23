@@ -14,15 +14,15 @@ In this repository I am just trying to enhance the accuracy of model by putting 
 # Table of Content
 1. Power Transformatio
 
-a. Box-Cox Tranformation
+  a. Box-Cox Tranformation
 
-b. Yeo-johnson Tranformation
+  b. Yeo-johnson Tranformation
 
 2. Function Transformation
 
-a. Log Tranformation
+  a. Log Tranformation
 
-b. Square Transformation
+  b. Square Transformation
 
 # Power Transformation
 Power transformation, also known as a power function or power law transformation, is a type of mathematical transformation applied to a variable in order to change its distribution or reduce skewness. It involves raising the variable to a power or applying a logarithmic function.
@@ -94,3 +94,4 @@ but thing is that if direct start doing the feature transformation you have not 
 Analyse the graph and the regression line so that it will help to take appropriate decison that this transformation is suitable for this feature or may be it will improve the accuracy rate. Then you can apply the transformation inside the data and proceed further.
 
 # License Information
+
