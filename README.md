@@ -13,11 +13,11 @@ In this repository I am just trying to enhance the accuracy of model by putting 
 
 # Table of Content
 1. Power Transformatio
-   a. Box-Cox Tranformation
-   b. Yeo-johnson Tranformation
+a. Box-Cox Tranformation
+b. Yeo-johnson Tranformation
 2. Function Transformation
-   a. Log Tranformation
-   b. Square Transformation
+a. Log Tranformation
+b. Square Transformation
 
 # Power Transformation
 Power transformation, also known as a power function or power law transformation, is a type of mathematical transformation applied to a variable in order to change its distribution or reduce skewness. It involves raising the variable to a power or applying a logarithmic function.
@@ -77,3 +77,15 @@ In this project We use Power Transformation and function transformation both whe
 
 with the help of these libraries I perform all the operation inside the dataset and get insight.
 
+# Feature Transformation Life-cycle model
+The procedure of Data transformation is simple :-
+step 1:- Extract the dataset
+step 2:- Select the correlated features
+step 3:- Split the data into train and test set.
+step 4:- Apply the transformation into X train set and X test 
+
+but thing is that if direct start doing the feature transformation you have not get anything so, before start doing the feature transformation first of all check the accuracy rate with Linear Regression or else other model then cross validate it. Cross validation help to get more accurate insight of accuracy of model prediction. After then if you get low accuracy rate then check the skewness of the data with the help of Visualization techniques. In this project I use the scipy probplot, matplotlib and seaborn libraries.
+
+Analyse the graph and the regression line so that it will help to take appropriate decison that this transformation is suitable for this feature or may be it will improve the accuracy rate. Then you can apply the transformation inside the data and proceed further.
+
+# License Information
