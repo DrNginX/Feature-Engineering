@@ -13,10 +13,15 @@ In this repository I am just trying to enhance the accuracy of model by putting 
 
 # Table of Content
 1. Power Transformatio
+
 a. Box-Cox Tranformation
+
 b. Yeo-johnson Tranformation
+
 2. Function Transformation
+
 a. Log Tranformation
+
 b. Square Transformation
 
 # Power Transformation
