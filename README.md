@@ -85,8 +85,11 @@ with the help of these libraries I perform all the operation inside the dataset 
 # Feature Transformation Life-cycle model
 The procedure of Data transformation is simple :-
 step 1:- Extract the dataset
+
 step 2:- Select the correlated features
+
 step 3:- Split the data into train and test set.
+
 step 4:- Apply the transformation into X train set and X test 
 
 but thing is that if direct start doing the feature transformation you have not get anything so, before start doing the feature transformation first of all check the accuracy rate with Linear Regression or else other model then cross validate it. Cross validation help to get more accurate insight of accuracy of model prediction. After then if you get low accuracy rate then check the skewness of the data with the help of Visualization techniques. In this project I use the scipy probplot, matplotlib and seaborn libraries.
