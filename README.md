@@ -90,8 +90,34 @@ step 3:- Split the data into train and test set.
 step 4:- Apply the transformation into X train set and X test 
 
 but thing is that if direct start doing the feature transformation you have not get anything so, before start doing the feature transformation first of all check the accuracy rate with Linear Regression or else other model then cross validate it. Cross validation help to get more accurate insight of accuracy of model prediction. After then if you get low accuracy rate then check the skewness of the data with the help of Visualization techniques. In this project I use the scipy probplot, matplotlib and seaborn libraries.
-
 Analyse the graph and the regression line so that it will help to take appropriate decison that this transformation is suitable for this feature or may be it will improve the accuracy rate. Then you can apply the transformation inside the data and proceed further.
 
 # License Information
+MIT License
 
+Copyright (c) 2023 Pranvesh Tripathi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## Acknowledgment
+I would like to thanks kaggle.com for providing me the valuable dataset which is used inside the project. Without the assistance and contributions of these individuals and organizations, this project would not have been possible. I am truly grateful for their involvement and for making this journey a rewarding and enriching experience.
+
+Hence Project is END
+
+Thanking You
